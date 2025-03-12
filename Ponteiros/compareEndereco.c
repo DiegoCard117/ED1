@@ -4,6 +4,7 @@ int main() {
     scanf("%d %d", &a, &b);
     printf("%p\n", &a);
     printf("%p\n", &b);
+
     if (&a > &b) {
         printf("%d", a);
     } else {
